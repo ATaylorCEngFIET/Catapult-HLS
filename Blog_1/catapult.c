@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include "sbox.h"
+#include "aes_enc.h"
 
 
 void shift_row_enc(uint8_t state[4][4], uint8_t result[4][4]);
